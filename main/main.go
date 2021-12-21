@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
+	goWebCrawler "github.com/AndreoBouzas/Go_Project/goWebCrawler"
 )
 
 func main() {
-	fmt.Println(Webcrawler())
+	goWebCrawler.Webcrawler()
+
 }
